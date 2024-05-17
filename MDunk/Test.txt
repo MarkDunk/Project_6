@@ -3,3 +3,7 @@
 * Added a personal section to the website, if you are reading this you are already here.
 * Looking into moving webserver over to node.js so that the front and back-end will both be handled by js.
 * Selected MCU for LoRa gateway. Following reference design to develop a module that can go on different carrier boards. First board will have LoRa radio, ETH, CAN, and USB only.
+* Gantt chart is WIP
+* Module board features decided: MCU (STM32H7R3), Clocks, SWDebug, 3.3 and opt 1.8V lin reg
+* Module board will be sent for MFG 5/21/24
+* Carrier board will have fp for RFM95 module, CAN transciever, Eth transciever (100BaseTx), RJ45, USB-C for 5V and DFU, SD card
